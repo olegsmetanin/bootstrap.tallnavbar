@@ -122,32 +122,29 @@
 
           <h3>Fix css</h3>
 
-          <pre class="prettyprint linenums">
-            body {
-              padding-top: 80px;
-            }
+<pre class="prettyprint linenums">
+body {
+  padding-top: 80px;
+}
 
-            .navbar-inner {
-              min-height: 80px;
-            }
+.navbar-inner {
+  min-height: 80px;
+}
 
-            .bs-docs-sidenav.affix {
-                top: 80px;
-            }
+.bs-docs-sidenav.affix {
+    top: 80px;
+}
 
-            section {
-              margin-top: -80px;
-              padding-top: 80px;
-            }
-          </pre>
+section {
+  margin-top: -80px;
+  padding-top: 80px;
+}</pre>
 
           <h3>Fix scrollspy offset</h3>
 
-          <pre class="prettyprint linenums">
-
-            &lt;body data-spy=&quot;scroll&quot; data-offset=&quot;90&quot; data-target=&quot;.bs-docs-sidebar&quot;&gt;<br/>    ...<br/>  &lt;/body&gt;
-
-          </pre>
+<pre class="prettyprint linenums">
+&lt;body data-spy=&quot;scroll&quot; <b>data-offset=&quot;90&quot;</b> data-target=&quot;.bs-docs-sidebar&quot;&gt;<br/>    ...
+&lt;/body&gt;</pre>
 
 
         </section>
